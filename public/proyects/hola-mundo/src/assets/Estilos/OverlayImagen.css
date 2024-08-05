@@ -1,0 +1,18 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black; /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    cursor: pointer; /* Cursor para indicar que se puede cerrar haciendo clic */
+}
+
+.overlay-img {
+    max-width: 99%;
+    max-height: 99%;
+}
